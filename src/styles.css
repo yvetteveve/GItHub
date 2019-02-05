@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
+body{
+    background-color: rgb(189, 218, 230);
+}
+img{
+    margin-bottom: 60px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    padding: 2%;
+    color: white;
+}

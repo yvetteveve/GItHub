@@ -19,6 +19,9 @@ export class GithubComponent implements OnInit {
    
 
   ngOnInit() {
+    ("'https://api.github.com/users/daneden?access_token=' + apiKey").subscribe(data=>{
+      // Successful API request.
+  })
   }
 
 }

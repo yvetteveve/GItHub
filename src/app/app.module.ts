@@ -12,6 +12,9 @@ import { GithubFormComponent } from './github-form/github-form.component';
     AppComponent,
     GithubComponent,
     GithubFormComponent
+    // StrikethroughDirective,
+    // DateCountPipe,
+    // GoalFormComponent
   ],
   imports: [
     BrowserModule,

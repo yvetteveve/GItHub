@@ -10,11 +10,11 @@ The web application will request the user to enter the username github,when he/s
 
 * to access my website you have to have a computer or smart phone
 * access internet on that device
-* go to browser and type https://yvetteveve.github.io/Github
+* go to browser and type https://yvetteveve.gitHub.io/Github
 * you have reach on it.
 
 ### Preview
- <a href="https://yvetteveve.github.io/Github" rel="nofollow">Click here</a>here to see the live site.
+ <a href="https://yvetteveve.github.io/GitHub" rel="nofollow">Click here</a>here to see the live site.
 
 ### Known Bugs
 No bugs so far. but you can steel make a research on how the one who has more upvoted is the one who will be placed at the top. If found, email me at yvetteumubyeyi2@gmail.com

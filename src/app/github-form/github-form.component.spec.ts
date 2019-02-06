@@ -7,10 +7,10 @@ describe('GithubFormComponent', () => {
   let fixture: ComponentFixture<GithubFormComponent>;
 
   beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ GithubFormComponent ]
-    })
-    .compileComponents();
+    TestBed.configureTestingModule({user}
+      declarations: [GithubFormComponent]
+    
+    .compileComponents(); 
   }));
 
   beforeEach(() => {

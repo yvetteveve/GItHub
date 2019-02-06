@@ -9,7 +9,7 @@ import { NgModule } from '@angular/core';
   styleUrls: ['./github-form.component.css']
 })
 export class GithubFormComponent implements OnInit {
-
+user;
   constructor() { 
     
   }

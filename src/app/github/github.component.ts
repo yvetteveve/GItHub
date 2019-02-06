@@ -11,7 +11,7 @@ import {HttpClient} from '@angular/common/http';
   
 })
 export class GithubComponent implements OnInit {
-
+  user:any; data:any;
   github:Github;
   constructor(githubService:GithubService,private http:HttpClient) {
     this.user = 'yvetteveve';
@@ -24,7 +24,7 @@ export class GithubComponent implements OnInit {
 
     interface ApiResponse{
       followers:any;
-      name:any;
+     
   } 
     this.http.get<ApiResponse>('https://api.github.com/users/'+this.user+'?access_token=151e266f42769cb77596e864f54a9d41724df674').subscribe(data=>{
       this.data= data;

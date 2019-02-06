@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {GithubComponent} from '../github.component';
 @Component({
   selector: 'app-github-form',
   templateUrl: './github-form.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubFormComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }

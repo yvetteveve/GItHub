@@ -1,15 +1,15 @@
-<!-- <h1>GitHub Users</h1> -->
-<div class="container">
 
-<form>
+<div class="container"> 
+
+<form (ngSubmit)='ngOnInit()'>
   <div class="dye">
 <div class="form-group">
 
-  <label for="name">User Name</label>
-  <input type="text" required class="form-control" id="name">
+  <label for="user">User Name</label>
+  <input type="text" required class="form-control" id="user" [(ngModel)]='user' name="user">
 
 </div>
-<button type="submit" class="btn btn-success btn-lg">Search</button>
+<button type="submit" class="btn btn-success btn-lg" (click)='ngOnInit()'>Search</button>
 </div>
 </form>
 </div>

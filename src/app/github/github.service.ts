@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import {Github} from "../github"
+import {Github} from '../github-class/github';
+
 
 @Injectable({
   providedIn: 'root'

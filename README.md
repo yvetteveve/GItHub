@@ -10,7 +10,7 @@ The web application will request the user to enter the username github,when he/s
 
 * to access my website you have to have a computer or smart phone
 * access internet on that device
-* go to browser and type https://yvetteveve.gitHub.io/Github
+* go to browser and type https://yvetteveve.gitHub.io/GitHub
 * you have reach on it.
 
 ### Preview

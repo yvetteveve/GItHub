@@ -8,6 +8,7 @@ import {HttpClient} from '@angular/common/http';
   templateUrl: './github.component.html',
   providers:[GithubService], //add the providers to the component
   styleUrls: ['./github.component.css']
+  
 })
 export class GithubComponent implements OnInit {
 
@@ -29,6 +30,7 @@ export class GithubComponent implements OnInit {
       this.data= data;
       console.log(data);
       return this.user.data;
+
     },err=>{
       this.github= new Github("Never, never, never give up.","winston churchill")
       console.log("Error occured ")

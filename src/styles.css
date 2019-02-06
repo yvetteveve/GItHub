@@ -3,6 +3,9 @@
 
 body{
     background-color: rgb(189, 218, 230);
+    border:2px solid white;
+    /* width:50%; */
+    height: 100%;
 }
 img{
     margin-bottom: 60px;

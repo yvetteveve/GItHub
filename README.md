@@ -2,7 +2,7 @@
 #### This is a website where people can express their ideas through github, Current version :5 February 2019
 #### By **YVETTE UMUBYEYI**
 ## Description
-On citar anyone can add github.The user has to fill a form with users names,the quote they want to add and the followers and the click on "Add quote" button to search a quote.
+On citar anyone can add github.The user has to fill a form with users names,the quote they want to add and the followers and the click on "Add quote" button to search a quote and followers
 ## Setup/Installation Requirements
 ## To access this webpage:
 * Connect to the internet

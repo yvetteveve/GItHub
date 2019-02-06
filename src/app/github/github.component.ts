@@ -19,8 +19,17 @@ export class GithubComponent implements OnInit {
     // this.github = githubService.getGithub()
    
 
-  ngOnInit() {
-    this.http.get("'https://api.github.com/users/daneden?access_token=' + apiKey").subscribe(data=>{
+  ngOnInit(user) {
+
+    interface ApiResponse{
+      github:string;
+      followers:string
+  } 
+    this.http.get<ApiResponse>('https://api.github.com/users/'+user+'?access_token='+environment.api_key).subscribe(data=>{
+      this.github= new Github(data.github,data.followers)
+    },err=>{
+      this.github= new Github("Never, never, never give up.","winston churchill")
+      console.log("Error occured ")
   })
   }
 }

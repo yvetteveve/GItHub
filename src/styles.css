@@ -13,3 +13,13 @@ footer{
     padding: 2%;
     color: white;
 }
+#rie{
+    text-align: center;
+}
+
+.dye{
+    border:2px solid black;
+    padding:2px;
+    width:400px;
+    margin-left:750px;
+}
